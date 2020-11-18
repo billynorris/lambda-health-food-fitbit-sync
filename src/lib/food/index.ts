@@ -18,6 +18,6 @@ export default class FoodClient {
         },
       });
 
-    return response.data;
+    return response.data.entries;
   };
 }
