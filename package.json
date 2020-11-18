@@ -1,6 +1,6 @@
 {
   "name": "lambda-health-food-fitbit-sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lambda to sync my food data to fitbit",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
