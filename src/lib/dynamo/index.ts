@@ -43,7 +43,9 @@ export default class DynamoClient {
       }),
       AttributeUpdates: {
         fitbit: {
-          Value: DynamoDB.Converter.marshall(tokenDetails),
+          Value: {
+            M: DynamoDB.Converter.marshall(tokenDetails),
+          },
         },
       },
       TableName: process.env.USER_TABLE_NAME,
